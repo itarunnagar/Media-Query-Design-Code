@@ -1,0 +1,124 @@
+.heading{
+    font-size: 50px;
+    font-weight:900;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+/* For Mobile */
+@media (max-width: 425px) {
+  body {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tablet {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+  .tvorLargerScreen {
+    display: none;
+  }
+}
+
+/* For Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  body {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+  .tvorLargerScreen {
+    display: none;
+  }
+}
+
+/* For Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: rgb(205, 123, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+  .tvorLargerScreen {
+    display: none;
+  }
+}
+
+/* For Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    background-color: rgb(17, 227, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .tvorLargerScreen {
+    display: none;
+  }
+}
+
+/* For Tv or Bigger Desktop */
+
+@media screen and (min-width: 1440px)  {
+  body {
+    background-color: rgb(133, 170, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+}
